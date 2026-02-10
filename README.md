@@ -6,12 +6,15 @@ Requires guile 3.0
 # Installation
 Move the anagram-game.scm to a path folder and then give it execute permissions.
 
-# behavior
-This game will let you create anagrams different from the scrambled word so long as it's in the dictionary file. 
+# Behavior
+This game displays a scrambled word and then prompts the user to unscramble it.
 
+The game will let you create anagrams different from the scrambled word so long as it's in the dictionary file. 
 For instance bemscral has scramble and clambers as different anagrams.
 
 # Example game
+The > symbol is displayed for clarity. It isn't actually in the game. 
+
 ```
 $ anagram-game /usr/share/dict/words 
 moidetzor
